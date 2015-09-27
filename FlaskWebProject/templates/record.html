@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="row">
+	<h2 class="titles" >{{title}}</h2>
+    
+    <div class="record-body" id="file-selector">
+        <div class="index-content">
+            <svg class="recording-circle" width="150" height="150">
+                <circle class="outer" id = "circle" cx="55" cy='65' r="60" stroke="#dedede" transform="rotate(-90, 65, 55)"/>
+                <circle class="outer-animation" stroke-dashoffset＝"480" display="none" id="outer-circle" cx="55" cy='65' r="60" transform="rotate(-90, 65, 55)" />
+            </svg>
+        	<button class="recording" id="recording">Start</button>
+            <a class="switch" id="switch">Select a file</a>
+
+            <button class="index-upload" id="upload-recording">Upload</button>
+        </div>
+    </div>
+
+	  
+</div>
+
+
+{% endblock %}
+
+{% block scripts %}
+    <script src="/static/scripts/record.js"></script>
+{% endblock %}
+
+

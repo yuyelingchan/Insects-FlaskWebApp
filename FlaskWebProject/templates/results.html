@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h2 class="titles">{{ title }}</h2>
+
+<div class="result-content" id="result-content">
+    <div class="show-result" id="result">
+	    <div id="result-img"></div>
+        <div class="citation" id="citation"> </div>
+
+        <p class="result-text" id = "result-text">
+            hhhhh
+        </p>
+        <button class="show-details" id="show-details">Show Details</button>
+        <button class="go-back" id="goback1">Go Back</button>
+    </div>
+
+    <div class="hide-result" id="details">
+        <p class="filename" id="filename"></p>
+        <p class="details-text-insects" id = "details-text-insects">
+            Duration </br>
+            SampleRate </br>
+        </br>
+            Insects </br>
+            Cicada </br>
+            Bush Cricket </br>
+            Cricket </br>
+            Grasshopper </br>
+            Mole Cricket </br>
+            No Insect </br>
+        </p>
+        <p class="details-text-probs" id = "details-text-probs">
+        </p>
+        <button class="go-back" id="goback2">Go Back</button>
+        <button class="show-details" id="hide-details">Hide Details</button>
+    </div>
+</div>
+
+<script src="/static/scripts/results.js"></script>
+<script>
+    window.onload = result_insect({{ result|tojson }});
+</script>
+
+{% endblock %}
+

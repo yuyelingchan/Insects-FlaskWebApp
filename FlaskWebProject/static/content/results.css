@@ -1,0 +1,71 @@
+.cricket {
+    position: absolute;
+    height: 210px;
+    width: 280px;
+    left: 10;
+    top: 30px;
+    background-image: url("img/cricket.jpg");
+    background-size: contain;
+}
+
+
+.bush-cricket {
+    position: absolute;
+    height: 210px;
+    width: 280px;
+    left: 10;
+    top: 30px;
+    background-image: url("img/bush_cricket.jpg");
+    background-size: contain;
+}
+
+.cicada {
+    position: absolute;
+    height: 210px;
+    width: 280px;
+    left: 10;
+    top: 30px;
+    background-image: url("img/cicada.png");
+    background-size: contain;
+}
+
+.mole-cricket{
+    position: absolute;
+    height: 210px;
+    width: 280px;
+    left: 10;
+    top: 30px;
+    background-image: url("img/mole_cricket.jpg");
+    background-size: contain;
+}
+
+.grasshopper {
+    position: absolute;
+    height: 210px;
+    width: 280px;
+    left: 10;
+    top: 30px;
+    background-image: url("img/grasshopper.jpg");
+    background-size: contain;
+}
+
+.no-insect {
+    position: absolute;
+    height: 210px;
+    width: 280px;
+    left: 10;
+    top: 30px;
+    background-image: url("img/noInsect.jpg");
+    background-size: contain;
+}
+
+.citation {
+    position: absolute;
+    height: 30px;
+    width: 400px;
+    top: 250px;
+    left: 0px;
+    color: #999999;
+    font-size: 0.8em;
+    text-align: left;
+}

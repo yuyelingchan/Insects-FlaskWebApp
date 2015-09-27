@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="row">
+	<h2 class="titles" >{{title}}</h2>
+    
+    <div class="index-body" id="file-selector">
+        <div class="index-content">
+        	<input id="fileName" class="file-name" placeholder="No File Chosen" disabled>
+        	<div class="file-chooser-cover">
+        		<span class="cover-text">Browse</span>
+            	<input class = "file-chooser" type="file" name="file" id="file">
+            </div>
+            <a class="switch" id="switch">Make a recording</a>
+
+            <button class="index-upload" id="upload-file">Upload</button>
+        </div>
+    </div>
+
+	  
+</div>
+
+
+
+{% endblock %}
+
+{% block scripts %}
+<script src="/static/scripts/index.js"></script>
+
+{% endblock %}
+
+
